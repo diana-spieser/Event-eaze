@@ -1,0 +1,51 @@
+{
+  "name": "event-eaze",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.0",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mapbox/mapbox-gl-directions": "^4.1.1",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.1",
+    "core-js": "^3.32.1",
+    "date-fns": "^2.30.0",
+    "date-holidays": "^3.21.5",
+    "firebase": "^10.2.0",
+    "framer-motion": "^10.16.1",
+    "holidayapi": "^6.0.1",
+    "icons": "^1.0.0",
+    "lodash.debounce": "^4.0.8",
+    "mapbox-gl": "^2.15.0",
+    "minimatch": "^3.1.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-clock": "^4.5.0",
+    "react-datepicker": "^4.16.0",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-hook-form": "^7.45.4",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.15.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}
